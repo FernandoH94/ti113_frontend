@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body{
+    font-family: 'Varela Round', sans-serif;
+}
+
+table th{
+    text-align: left;
+    color: rgb(21, 23, 24);
+}
+table td{
+    color: rgb(75, 77, 82);
+}
+
+i.pincel{
+    color: gold;
+    margin-left: 10px;
+}
+
+i.lixo{
+    color: red;
+    margin-left: 10px;
+}
+
+.add{
+
+    background-color: #38bdf8;
+    border-radius: 10px;
+    border: 0;
+    padding: 5px;
+    color: white;
+}
