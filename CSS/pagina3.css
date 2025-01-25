@@ -1,0 +1,75 @@
+#tab1 {
+    background-color: gray;
+    height: 150px;
+    width: 100%;
+
+}
+
+#tab2 {
+
+    background-color: rgb(56, 50, 50);
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px 15px;
+
+}
+
+#tab2 .link {
+    width: 170px;
+
+}
+
+#tab3 {
+
+    background-color: white;
+    height: 20px;
+    width: 100%;
+
+}
+
+
+
+#tab4 {
+    background-color: rgb(56, 50, 50);
+    height: 100px;
+    width: 65%;
+    font-size: 50px;
+    color: white;
+
+}
+
+#tab5 {
+    background-color: gray;
+    height: 220px;
+    width: 65%;
+    color: white;
+    text-align: justify;
+}
+
+.botao {
+    float: right;
+}
+
+#tab6 {
+
+    background-color: white;
+    height: 20px;
+    width: 100%;
+
+}
+
+
+#tab7 {
+    background-color: rgb(56, 50, 50);
+    height: 50px;
+    width: 30%;
+    font-size: 15px;
+    color: white;
+}
+
+#tab8 {
+    background-color: gray;
+    width: 30%;
+    
+}
