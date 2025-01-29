@@ -1,0 +1,123 @@
+@media (max-width: 600px) {
+    div#box1 {
+        display: inline-block;
+        background-color: white;
+        border: 2px solid black;
+        width: 100px;
+        height: 100px;
+    }
+
+    div#box2 {
+        display: inline-block;
+        background-color: black;
+        border: 3px dotted red;
+        width: 100px;
+        height: 100px;
+    }
+
+    div#box3 {
+        display: inline-block;
+        background-color: yellow;
+        border: 2px dashed blue;
+        width: 100px;
+        height: 100px;
+    }
+
+    div#box4 {
+        display: inline-block;
+        background-color: blue;
+        border: 3px green solid;
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (min-width: 600px) {
+    div#box1 {
+        display: inline-block;
+        background-color: yellow;
+        width: 100px;
+        height: 100px;
+    }
+
+    div#box2 {
+        display: inline-block;
+        background-color: pink;
+        width: 100px;
+        height: 100px;
+    }
+
+    div#box3 {
+        display: inline-block;
+        background-color: blue;        
+        width: 100px;
+        height: 100px;
+    }
+
+    div#box4 {
+        display: inline-block;
+        background-color: black;
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (min-width: 800px) {
+    div#box1 {
+        display: inline-block;
+        background-color: black;
+        width: 100px;
+        height: 100px;
+    }
+
+    div#box2 {
+        display: inline-block;
+        background-color: red;
+        width: 100px;
+        height: 100px;
+    }
+
+    div#box3 {
+        display: inline-block;
+        background-color: purple;        
+        width: 100px;
+        height: 100px;
+    }
+
+    div#box4 {
+        display: inline-block;
+        background-color: blue;
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (min-width: 1000px) {
+    div#box1 {
+        display: inline-block;
+        background-color: green;
+        width: 100px;
+        height: 100px;
+    }
+
+    div#box2 {
+        display: inline-block;
+        background-color: yellow;
+        width: 100px;
+        height: 100px;
+    }
+
+    div#box3 {
+        display: inline-block;
+        background-color: blue;        
+        width: 100px;
+        height: 100px;
+    }
+
+    div#box4 {
+        display: inline-block;
+        background-color: grey;
+        width: 100px;
+        height: 100px;
+    }
+}
