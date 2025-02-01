@@ -1,0 +1,132 @@
+@import url(../CSS/reset.css);
+
+* {
+    border-radius: 10px;
+}
+
+/* Somente Celular */
+@media only screen and (max-width: 768px) {
+    header {
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+    }
+
+    nav.menu {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    a {
+        text-decoration: none;
+        text-align: center;
+        background-color: #00b3ff;
+        color: white;
+        padding: 5px 0;
+        margin: 2px 0;
+    }
+
+    article {
+        display: flex;
+        background-color: #00b3ff;
+        height: 50px;
+        margin: 2px 0;
+        color: white;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .banner img {
+        width: 100vw;
+        height: 35vw;
+
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 5vh;
+        margin: 0.5vw;
+        background-color: #00b3ff;
+        color: white;
+    }
+}
+
+/* Somente Tablet */
+@media only screen and (min-width: 768px) {
+    header {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100vw;
+        height: 5vw;
+
+    }
+
+    nav a {
+        background-color: #00b3ff;
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        margin: 10px;
+
+    }
+
+    section img {
+        margin: 0.5vw;
+        width: 100vw;
+    }
+
+    section.art {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 100vw;
+    }
+
+    section.art article {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 25vw;
+        margin: 0.5vw;
+        height: 300px;
+        background-color: #00b3ff;
+        color: white;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 10vh;
+        margin: 0.5vw;
+        background-color: #00b3ff;
+        color: white;
+    }
+}
+
+/* Somente Desktop */
+@media only screen and (min-width: 992px) {
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        width: 100vw;
+        border-radius: 5px;
+    }
+
+    nav.menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+
+}
